@@ -10,7 +10,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: myapp
+      app: nginx
   template:
     metadata:
       labels:
@@ -25,4 +25,3 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 80
-
